@@ -7,12 +7,43 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
     backgroundColor: '#FFFFFF',
+    
   },
   label: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginVertical: 5,
+    fontSize: 14,
+    
   },
+
+  textinput:{
+    borderColor: '#9e9e9e',
+    borderWidth: 1,
+    color: '#2c2c2c',
+    padding: 10,
+    marginTop: 1,
+    width: 300,
+    marginBottom: 10,
+    borderRadius: 10,
+  },
+
+  linhaHorizontal:{
+    borderBottomColor: '#b6b6b690',
+    borderBottomWidth: 2,
+    marginVertical: 1,
+    marginTop: 20,
+    width: '100%',
+    alignContent: 'center',
+    justifyContent: 'center',
+  },
+
+  textInfo:{
+    fontSize: 12,
+    marginTop: 5,
+    marginBottom: 20,
+    textAlign: 'center',
+    color: '#ff4444',
+
+  },
+
   radioButtonContainer: {
     flexDirection: 'row',
     justifyContent: 'space-around',
@@ -42,6 +73,7 @@ const styles = StyleSheet.create({
   photoButtonContainer: {
    //flexDirection: 'row',
     //alignItems: 'center',
+    
   },
 
   photoButton: {
@@ -55,6 +87,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     marginTop: 0,
     marginRight: 0,
+    marginLeft: 15,
   },
   photoButtonIcon: {
     marginRight: 0,
@@ -90,6 +123,27 @@ const styles = StyleSheet.create({
     top: 20,
     right: 20,
     padding: 10,
+  },
+
+  selectionButtonsContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 5,
+  },
+  selectionButton: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 5,
+    marginRight: 10,
+  },
+  selectionButtonSelected: {
+    backgroundColor: '#27ec00',
+    borderColor: '#007bff',
+  },
+  selectionButtonText: {
+    color: '#000',
   },
 });
 
